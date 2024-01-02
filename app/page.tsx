@@ -49,7 +49,7 @@ export default  function Home() {
     getCars();
   }, [fuel, year, limit, manufacturer, model])
 
-  const isDataEmpty = !Array.isArray(allCars) || allCars.length <1 || !allCars;
+  // const isDataEmpty = !Array.isArray(allCars) || allCars.length <1 || !allCars;
 
 
 
